@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derékszögű háromszög megszerkeszthetősége</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Derékszögű háromszög oldalhosszai</legend>
+            <label for="befogo1">Egyik befogó:</label><br>
+            <input type="text" id="befogo1" name="befogo1"><br>
+            <label for="befogo2">Másik befogó:</label><br>
+            <input type="text" id="befogo2" name="befogo2"><br>
+            <label for="atfogo">Átfogó:</label><br>
+            <input type="text" id="atfogo" name="atfogo"><br><br>
+            <input type="button" onclick="Megszerkesztheto()" value="Megszerkeszthető?">
+            <input type="button" onclick="VeletlenSzamok()" value="Véletlen oldalhosszak 10...100-ból">
+            <input type="button" onclick="AtfogoKiszamitas()" value="Átfogó kiszámítása">
+        </fieldset>
+    </form>
+</body>
+</html>
